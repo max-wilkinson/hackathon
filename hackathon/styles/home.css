@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#headline-img {
+  max-width: 70%;
+  max-height: 40%;
+}
+
+.register-btn {
+  padding: .75rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(113, 148, 137);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  font-family: 'Aniron';
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 32rem!important;
+
+}
+
+.grid-container {
+  display: grid;
+  margin: 0;
+  justify-content: center;
+  grid-template-rows: repeat(10, auto);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.hero-image,
+.countdown,
+.map,
+.footer {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about,
+.event-detail,
+.agenda,
+.house-rules-title,
+.judging-title,
+.criteria-title {
+  padding: 4vh 1vw 7vh 7.25vw;
+}
+
+.house-rules-detail,
+.house-rules-more-detail,
+.judging-detail,
+.criteria-detail {
+  padding: 7vh 3.6vw 0 0;
+}
+
+.agenda,
+.location {
+  background-color: #182825;
+  background-size: cover;
+}
+
+.hero-image {
+  grid-column: 1 / 4;
+  grid-row: 1 / 1;
+  height: 80vh;
+  background-image: 
+    url('../images/ideathon-hero-image.png');
+  background-position: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding-top: 8vh;
+  box-sizing: border-box;
+}
+
+.hero-image button {
+  display: block;
+  margin: 2rem auto 0;
+}
+
+.register {
+  /*grid-column: 1 / span 3;
+  grid-row: 2 / 2;*/
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about {
+  grid-column: 1 / 3;
+  grid-row: 4 / 3;
+  height: auto;
+}
+
+.event-detail {
+  grid-column: 3 / 4;
+  grid-row: 4 / 3;
+}
+
+.event-detail div {
+  margin-bottom: 3rem;
+}
+
+.agenda {
+  grid-column: 1 / 2;
+  grid-row: 5 / 4;
+  color: #fff;
+  height: auto;
+}
+
+.agenda div {
+  margin-bottom: 5rem;
+}
+
+.countdown {
+  grid-column: 2 / 4;
+  grid-row: 5 / 4;
+  background-image: url(../images/hackathon-background.png);
+  background-position: center;
+  padding-top: 7vh;
+  text-align: center;
+}
+
+.house-rules-title {
+  grid-column: 1 / 2;
+  grid-row: 6 / 5;
+}
+
+.house-rules-detail {
+  grid-column: 2 / 3;
+  grid-row: 6 / 5;
+}
+
+.house-rules-more-detail {
+  grid-column: 3 / 4;
+  grid-row: 6 / 5;
+}
+
+.judging-title {
+  grid-column: 1 / 1;
+  grid-row: 7 / 6;
+}
+
+.judging-detail {
+  grid-column: 2 / 4;
+  grid-row: 7 / 6;
+}
+
+.criteria-title {
+  grid-column: 1 / 1;
+  grid-row: 8 / 7;
+}
+
+.criteria-detail {
+  grid-column: 2 / 4;
+  grid-row: 8 / 7;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.criteria-detail div {
+  width: 30%;
+}
+
+.map {
+  grid-column: 1 / 3;
+  grid-row: 7;
+  background-image: url('../images/map.png');
+}
+
+.location {
+  grid-column: 3 / 4;
+  grid-row: 7;
+  padding: 70px 40px;
+  color: #fff;
+}
+
+.trailer {
+  grid-column: 1 / 4;
+  grid-row: 8;
+  text-align: center;
+  padding: 3rem;
+}
+
+.trailer video,
+.download a {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+}
+
+.download {
+  grid-column: 1 / 4;
+  grid-row: 9;
+  text-align: center;
+  padding: 0 0 3rem 0;
+}
+
+.download a {
+  display: inline-block;
+  height: 20rem;
+  width: 26.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border: none;
+  text-decoration: none;
+}
+
+#poster-link {
+  background-image: url('../images/Ideathon-Poster.png');
+}
+
+.footer {
+  grid-column: 1 / 4;
+  grid-row: 10;
+  background-image: url(../images/hackathon-background.png);
+  background-position: bottom;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  #spaceship-img {
+    display: none;
+  }
+
+  .hero-image {
+    height: 55vh;
+  }
+
+  .hero-image button {
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem auto 0;
+  }
+}
+
+@media only screen and (max-height: 575px) {
+  .hero-image button {
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem auto 0;
+  }
+}
+
+
