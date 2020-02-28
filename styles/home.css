@@ -20,8 +20,6 @@ body {
   font-size: 1.5rem;
   letter-spacing: 1px;
   cursor: pointer;
-  margin-top: 32rem!important;
-
 }
 
 .grid-container {
@@ -78,7 +76,7 @@ body {
 
 .hero-image button {
   display: block;
-  margin: 2rem auto 0;
+  margin: 32rem auto 0;
 }
 
 .register {
@@ -233,7 +231,7 @@ body {
   .hero-image button {
     font-size: 1rem;
     padding: 1rem;
-    margin: 1rem auto 0;
+    margin: 20rem auto 0;
   }
 }
 
@@ -241,7 +239,7 @@ body {
   .hero-image button {
     font-size: 1rem;
     padding: 1rem;
-    margin: 1rem auto 0;
+    margin: 32rem auto 0;
   }
 }
 
