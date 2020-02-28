@@ -9,7 +9,7 @@ body {
 }
 
 .register-btn {
-  padding: 1.75rem;
+  padding: .75rem;
   border: none;
   outline: none;
   color: #fff;
@@ -20,6 +20,8 @@ body {
   font-size: 1.5rem;
   letter-spacing: 1px;
   cursor: pointer;
+  margin-top: 32rem!important;
+
 }
 
 .grid-container {
@@ -44,7 +46,7 @@ body {
 .house-rules-title,
 .judging-title,
 .criteria-title {
-  padding: 7vh 1vw 7vh 7.25vw;
+  padding: 4vh 1vw 7vh 7.25vw;
 }
 
 .house-rules-detail,
@@ -80,11 +82,11 @@ body {
 }
 
 .register {
-  grid-column: 1 / span 3;
-  grid-row: 2 / 2;
-  margin-left: auto;
+  /*grid-column: 1 / span 3;
+  grid-row: 2 / 2;*/
+
   margin-right: auto;
-  margin-top: 90px;
+  margin-left: auto;
 }
 
 .about {
