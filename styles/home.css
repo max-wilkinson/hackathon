@@ -63,7 +63,7 @@ body {
 .hero-image {
   grid-column: 1 / 4;
   grid-row: 1 / 1;
-  height: 80vh;
+  height: 738px;
   background-image: 
     url('../images/ideathon-hero-image.png');
   background-position: center;
